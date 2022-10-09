@@ -1,6 +1,12 @@
 import Calculator from "./Views/Calculator";
 
 function App() {
+
+
+  const portfolio = <a href="https://cleveroscar.dev/" className="text-blue-500 hover:text-blue-800" target="_blank"> CleverOscar</a>
+
+  const hacktoberfest = <a href="https://hacktoberfest.com/" className="text-blue-500 hover:text-blue-800" target="_blank"> Hacktoberfest</a>
+
   return (
     <div className="App bg-blue-300 h-screen">
       {/* Container */}
@@ -15,8 +21,8 @@ function App() {
 
           {/* Footer */}
 
-          <div className="bg-gray-900/10 text-center">
-            <p>Developed for Hacktoberfest 2022 </p>
+          <div className="bg-gray-900/10 text-center py-4 text-xl">
+            <p>Developed for {hacktoberfest} 2022 with {portfolio} </p>
           </div>
       </div>
 
