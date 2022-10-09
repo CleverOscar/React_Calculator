@@ -7,7 +7,7 @@ export default function OperationsView(){
     const numberElements = numbers.map(number => <li>{number}</li>)
 
     return(
-        < div className = 'bg-[#ffffff] w-full p-8 rounded-br-xl rounded-bl-xl' >
+        < div className = 'bg-[#ffffff] w-full p-8 rounded-br-xl rounded-bl-xl text-[#dc6666]' >
             Operations Componet
 
             {numberElements}            
